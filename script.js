@@ -15,7 +15,7 @@ function calculateProbability() {
     console.log(requestData);
     console.log(JSON.stringify(requestData));
     // Make the API request
-    fetch('https://titanic-survival-probability.onrender.com/predict', {
+    fetch('https://titanic-survival-probability-d.onrender.com/predict', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
